@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Swipe</string>
+    <string name="player_name">player_name</string>
+    <string name="cancel">Cancel</string>
+    <string name="play_again">Play Again!</string>
+
+</resources>
