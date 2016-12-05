@@ -38,9 +38,9 @@ public class Game_Screen extends AppCompatActivity {
                     cancelTimer();
                     Log.d(DEBUG_TAG, "down " + d);
                     i++;
+                }else {
+                    startTimer(i);
                 }
-                startTimer(i);
-
                 return false;
             }
 
