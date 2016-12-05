@@ -1,7 +1,6 @@
 package com.example.tech.swipe;
 
 
-import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 
@@ -77,7 +76,6 @@ class SwipeListener extends GestureDetector.SimpleOnGestureListener {
                 return Direction.other;
             }
         }
-
     }
 }
 

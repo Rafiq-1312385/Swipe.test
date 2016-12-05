@@ -13,19 +13,34 @@
     <Button
         android:text="Start"
         android:layout_width="250dp"
-        android:layout_height="200dp"
+        android:layout_height="250dp"
         android:id="@+id/btn_Start"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:src="@drawable/swipe_scroll"
-        android:background="@drawable/swipe_scroll"
+        android:background="@drawable/swipe"
         android:textAlignment="center"
         android:gravity="bottom|center_vertical|center_horizontal"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
         android:textStyle="normal|bold"
         android:textSize="36sp"
         android:textColor="@android:color/holo_blue_dark"
         android:onClick="onClickStartBtn"
-    />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp" />
+
+    <Button
+        android:text="Custom Game"
+        android:background="@drawable/bg_transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_custom"
+        android:visibility="invisible"
+        android:textSize="36sp"
+        android:textColor="@android:color/holo_blue_dark"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textStyle="normal|bold"
+        android:padding="10dp"
+        android:layout_below="@+id/btn_Start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp" />
 
 </RelativeLayout>
