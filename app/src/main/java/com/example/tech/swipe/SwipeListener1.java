@@ -24,6 +24,7 @@ class SwipeListener1 implements View.OnTouchListener {
 
 
 
+
     public SwipeListener1(Context context) {
         gestureDetector = new GestureDetector(context, new GestureListener());
     }
@@ -42,7 +43,7 @@ class SwipeListener1 implements View.OnTouchListener {
         }
 
         @Override
-        public boolean onFling(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
+        public boolean onFling (MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
 
 
                 float x1 = e1.getX(), y1 = e1.getY(); //The First point x,y axis
@@ -89,6 +90,7 @@ class SwipeListener1 implements View.OnTouchListener {
 
     //method that will be overridden, to pass the detected action on.
     public boolean onSwipe(Direction direction) {return false;}
+
 
 
 }
